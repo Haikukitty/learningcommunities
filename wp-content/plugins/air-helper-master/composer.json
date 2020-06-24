@@ -1,0 +1,19 @@
+{
+  "name": "digitoimistodude/air-helper",
+  "type": "wordpress-plugin",
+  "description": "Plugin provides helpful functions and modifications for WordPress projects.",
+  "homepage": "https://github.com/digitoimistodude/air-helper",
+  "keywords": [
+    "wordpress",
+    "plugin"
+  ],
+  "license": "GPL-3.0+",
+  "version": "2.1.4",
+  "authors": [
+    {
+      "name": "Timi Wahalahti",
+      "email": "timi@dude.fi",
+      "homepage": "https://github.com/timiwahalahti"
+    }
+  ]
+}
