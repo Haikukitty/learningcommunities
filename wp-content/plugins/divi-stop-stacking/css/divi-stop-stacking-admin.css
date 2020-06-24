@@ -1,0 +1,10 @@
+div[data-module_type="et_pb_stop_stacking"] .et-pb-options-tabs-links .et_pb_options_tab_advanced,
+div[data-module_type="et_pb_stop_stacking"] .et-pb-options-tabs-links .et_pb_options_tab_custom_css {
+  display: none !important; }
+
+div[data-module_type="et_pb_stop_stacking"] .et-pb-options-tabs .et-pb-options-tab.et-pb-options-tab-general:before {
+  content: 'No options necessary. Just click Save & Exit below!';
+  display: block; }
+
+li.et_pb_stop_stacking:before {
+  content: '\4f' !important; }

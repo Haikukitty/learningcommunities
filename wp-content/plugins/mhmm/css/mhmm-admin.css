@@ -1,0 +1,33 @@
+div[data-module_type="et_pb_mhmm_menu"] .et-pb-options-tab-advanced div[data-option_name="menu_item_text_color"],
+div[data-module_type="et_pb_mhmm_menu_layout"] .et-pb-options-tab-advanced div[data-option_name="menu_item_text_color"],
+div[data-module_type="et_pb_mhmm_inline_menu"] .et-pb-options-tab-advanced div[data-option_name="menu_item_text_color"] {
+  display: none; }
+
+div[data-module_type="et_pb_mhmm_menu"] .et-pb-options-tab-advanced .et-pb-options-toggle-container:last-child,
+div[data-module_type="et_pb_mhmm_menu_layout"] .et-pb-options-tab-advanced .et-pb-options-toggle-container:last-child,
+div[data-module_type="et_pb_mhmm_inline_menu"] .et-pb-options-tab-advanced .et-pb-options-toggle-container:last-child {
+  display: none; }
+
+div[data-module_type="et_pb_mhmm_menu"] .et-pb-option--custom_css[data-option_name="custom_css_before"], div[data-module_type="et_pb_mhmm_menu"] .et-pb-option--custom_css[data-option_name="custom_css_after"], div[data-module_type="et_pb_mhmm_menu"] .et-pb-option--custom_css[data-option_name="custom_css_main_element"],
+div[data-module_type="et_pb_mhmm_menu_layout"] .et-pb-option--custom_css[data-option_name="custom_css_before"],
+div[data-module_type="et_pb_mhmm_menu_layout"] .et-pb-option--custom_css[data-option_name="custom_css_after"],
+div[data-module_type="et_pb_mhmm_menu_layout"] .et-pb-option--custom_css[data-option_name="custom_css_main_element"],
+div[data-module_type="et_pb_mhmm_inline_menu"] .et-pb-option--custom_css[data-option_name="custom_css_before"],
+div[data-module_type="et_pb_mhmm_inline_menu"] .et-pb-option--custom_css[data-option_name="custom_css_after"],
+div[data-module_type="et_pb_mhmm_inline_menu"] .et-pb-option--custom_css[data-option_name="custom_css_main_element"] {
+  display: none; }
+
+div[data-module_type="et_pb_mhmm_menu"] .et-pb-options-tab-advanced .et_custom_margin_padding label:nth-of-type(even),
+div[data-module_type="et_pb_mhmm_menu_layout"] .et-pb-options-tab-advanced .et_custom_margin_padding label:nth-of-type(even) {
+  display: none; }
+
+#mhmm-menu-layout-meta-box hr {
+  margin-top: 1em; }
+
+#mhmm-menu-layout-meta-box em {
+  display: block; }
+
+#mhmm-menu-layout-meta-box input[name="meta-mhmm-menu-layout-id"] {
+  color: #008BDB;
+  padding: 4px;
+  font-size: 14px; }

@@ -1,0 +1,188 @@
+/*-------------------------------------------------------------------------------------------------
+Shortcodes Styles
+--------------------------------------------------------------------------------------------------*/
+/* highlight */
+.eth-highlight {
+  background-color: #d95843;
+  color: #fff;
+  padding: 0 2px;
+}
+/* Columns */
+[class*="ethcol-"] {
+  float: left;
+  position: relative;
+  margin-right: 4%;
+  margin-bottom: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ethcol-last {
+  margin-right: 0 !important;
+}
+.ethcol-1-2 {
+  width: 48%;
+}
+.ethcol-1-3 {
+  width: 30.66%;
+}
+.ethcol-2-3 {
+  width: 65.33%;
+}
+.ethcol-1-4 {
+  width: 22%;
+}
+.ethcol-3-4 {
+  width: 74%;
+}
+.ethcol-1-5 {
+  width: 16.8%;
+}
+.ethcol-2-5 {
+  width: 37.6%;
+}
+.ethcol-3-5 {
+  width: 58.4%;
+}
+.ethcol-4-5 {
+  width: 79.2%;
+}
+.ethcol-1-6 {
+  width: 13.33%;
+}
+.ethcol-5-6 {
+  width: 82.67%;
+}
+/* Accordion and Toggle */
+.eth-accordion-ct,
+.eth-toggle-ct,
+.eth-tabs-ct {
+  display: block;
+  padding: 20px 0;
+}
+.eth-accordion-ct .ui-accordion-header,
+.eth-toggle-ct .ui-accordion-header,
+.eth-tabs-ct .ui-accordion-header,
+.eth-accordion-ct .eth-toggle,
+.eth-toggle-ct .eth-toggle,
+.eth-tabs-ct .eth-toggle,
+.eth-accordion-ct .ui-tabs-nav li,
+.eth-toggle-ct .ui-tabs-nav li,
+.eth-tabs-ct .ui-tabs-nav li {
+  position: relative;
+  margin: 0;
+  background: #f7f7f7;
+  border: 1px solid #eee;
+}
+.eth-accordion-ct .ui-accordion-header a,
+.eth-toggle-ct .ui-accordion-header a,
+.eth-tabs-ct .ui-accordion-header a,
+.eth-accordion-ct .eth-toggle a,
+.eth-toggle-ct .eth-toggle a,
+.eth-tabs-ct .eth-toggle a,
+.eth-accordion-ct .ui-tabs-nav li a,
+.eth-toggle-ct .ui-tabs-nav li a,
+.eth-tabs-ct .ui-tabs-nav li a {
+  padding: 10px 20px;
+  margin-left: 20px;
+  font-size: 16px;
+  display: block;
+  color: #666;
+}
+.eth-accordion-ct .ui-state-active,
+.eth-toggle-ct .ui-state-active,
+.eth-tabs-ct .ui-state-active,
+.eth-accordion-ct .ui-state-active a,
+.eth-toggle-ct .ui-state-active a,
+.eth-tabs-ct .ui-state-active a,
+.eth-accordion-ct .eth-toggle.active a,
+.eth-toggle-ct .eth-toggle.active a,
+.eth-tabs-ct .eth-toggle.active a,
+.eth-accordion-ct .eth-toggle a,
+.eth-toggle-ct .eth-toggle a,
+.eth-tabs-ct .eth-toggle a,
+.eth-accordion-ct .ui-tabs-active a,
+.eth-toggle-ct .ui-tabs-active a,
+.eth-tabs-ct .ui-tabs-active a {
+  outline: none;
+  text-decoration: none;
+}
+.eth-accordion-ct .ui-accordion-header.ui-state-active:before,
+.eth-toggle-ct .ui-accordion-header.ui-state-active:before,
+.eth-tabs-ct .ui-accordion-header.ui-state-active:before,
+.eth-accordion-ct .ui-accordion-header:before,
+.eth-toggle-ct .ui-accordion-header:before,
+.eth-tabs-ct .ui-accordion-header:before,
+.eth-accordion-ct .eth-toggle.active:before,
+.eth-toggle-ct .eth-toggle.active:before,
+.eth-tabs-ct .eth-toggle.active:before,
+.eth-accordion-ct .eth-toggle:before,
+.eth-toggle-ct .eth-toggle:before,
+.eth-tabs-ct .eth-toggle:before {
+  content: '-';
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  color: #999;
+  font-size: 16px;
+}
+.eth-accordion-ct .ui-accordion-header.ui-state-active:before,
+.eth-toggle-ct .ui-accordion-header.ui-state-active:before,
+.eth-tabs-ct .ui-accordion-header.ui-state-active:before,
+.eth-accordion-ct .eth-toggle.active:before,
+.eth-toggle-ct .eth-toggle.active:before,
+.eth-tabs-ct .eth-toggle.active:before {
+  content: '-';
+}
+.eth-accordion-ct .ui-accordion-header:before,
+.eth-toggle-ct .ui-accordion-header:before,
+.eth-tabs-ct .ui-accordion-header:before,
+.eth-accordion-ct .eth-toggle:before,
+.eth-toggle-ct .eth-toggle:before,
+.eth-tabs-ct .eth-toggle:before {
+  content: '+';
+}
+.eth-accordion-ct .ui-accordion-content,
+.eth-toggle-ct .ui-accordion-content,
+.eth-tabs-ct .ui-accordion-content,
+.eth-accordion-ct .eth-toggle-content,
+.eth-toggle-ct .eth-toggle-content,
+.eth-tabs-ct .eth-toggle-content,
+.eth-accordion-ct .ui-tabs-panel,
+.eth-toggle-ct .ui-tabs-panel,
+.eth-tabs-ct .ui-tabs-panel {
+  padding: 20px;
+  border: 1px solid #eee;
+}
+/* Toggle */
+.eth-toggle-ct {
+  padding: 0;
+}
+.eth-toggle-content {
+  display: none;
+}
+.eth-toggle-content .active {
+  display: block;
+}
+/* Tabs */
+.eth-tabs-ct .eth-tabsitems {
+  margin-top: -8px;
+}
+.eth-tabs-ct .ui-tabs-nav {
+  display: inline-block;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.eth-tabs-ct .ui-tabs-nav li {
+  float: left;
+}
+.eth-tabs-ct .ui-tabs-nav li a {
+  margin: 0;
+}
+.eth-tabs-ct .ui-tabs-active {
+  border-bottom: 1px solid #fff !important;
+}
+.eth-tabs-ct .ui-tabs-active a {
+  background: #fff;
+}

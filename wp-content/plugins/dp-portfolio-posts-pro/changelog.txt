@@ -1,0 +1,35 @@
+version 1.0 ( 9-28-2015 )
+
+- Initial release
+
+version 1.01 ( 10–5-2015 )
+
+- Fixed issue with plugin not working with other Divi custom module plugins
+
+version 1.1 ( 10-27-2015 )
+
+- Fixed issue with child categories in filterable post module
+
+- Added post excerpts to all modules
+
+- Added custom URLs to all modules
+
+version 1.1.1 ( 10-27-2015 )
+
+- Fixed issue with URL not defaulting to post URL if Custom URL option is turned on but the post does not have a custom URL set
+
+version 1.2 ( 1-28-2016 )
+
+- Updated to work with custom post types
+
+version 1.2.1 ( 1-29-2016 )
+
+- Fixed issues with mobile display on Divi 2.6+
+
+version 1.2.2 ( 2–18-2016 )
+
+- Fixed more issues with mobile display on Divi 2.6+
+
+version 1.2.3 ( 2-26-2016 )
+
+- Fixed issues with Divi 2.6.4.4

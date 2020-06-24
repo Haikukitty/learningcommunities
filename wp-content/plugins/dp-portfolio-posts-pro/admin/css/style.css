@@ -1,0 +1,8 @@
+.et-pb-all-modules .et_pb_dpfilterable_blog:before, .et_pb_saved_layouts_list .et_pb_dpfilterable_blog:before { content: '\63'; color: #FF922A }
+.et-pb-all-modules .et_pb_dpfilterable_blog .et_module_title, .et_pb_saved_layouts_list .et_pb_dpfilterable_blog .et_module_title { color: #336AD7 }
+
+.et-pb-all-modules .et_pb_dpblog_portfolio:before, .et_pb_saved_layouts_list .et_pb_dpblog_portfolio:before { content: '\57'; color: #FF922A}
+.et-pb-all-modules .et_pb_dpblog_portfolio .et_module_title, .et_pb_saved_layouts_list .et_pb_dpblog_portfolio .et_module_title { color: #336AD7 }
+
+.et-pb-all-modules .et_pb_dpfullwidth_blog:before, .et_pb_saved_layouts_list .et_pb_dpfullwidth_blog:before { content: '\57'; color: #FF922A}
+.et-pb-all-modules .et_pb_dpfullwidth_blog .et_module_title, .et_pb_saved_layouts_list .et_pb_dpfullwidth_blog .et_module_title { color: #336AD7 }

@@ -1,0 +1,46 @@
+li,
+a {
+  box-shadow: none !important;
+  outline: none;
+}
+
+.option-tree-save-layout,
+#option-tree-logo a {
+  display: none !important;
+}
+
+#option-tree-header-wrap {
+  height: 80px !important;
+  border: 1px solid #ccc;
+  margin: 0 5px 0 2px;
+}
+
+#option-tree-header {
+  background: #fff !important;
+  margin: 0 !important;
+  
+}
+
+#option-tree-logo {
+  width: 160px;
+  height: 80px;
+  margin-left: 20px !important;
+  background: url('../images/logo.png') 0 10px no-repeat !important;
+}
+
+
+.theme-version {
+  color: #666;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 80px !important;
+  border: none !important;
+}
+
+.theme-version a {
+  color: #d95843 !important;
+}
+
+.wrap.settings-wrap .ui-tabs-nav li {
+  padding: 10px !important;
+}

@@ -1,0 +1,132 @@
+1.2.5
+===================
+Fixed - Videos are now responsive.
+Updated - FontAwesome Icons to the lastest version 4.5.
+
+
+1.2.4
+===================
+Fixed - Images showing error box if left empty (Firefox).
+
+
+1.2.3
+===================
+Fixed - Price table button not showing if link is left empty.
+Added - Documentation updated with more tips.
+
+
+1.2.2
+===================
+Fixed - Sample product image option leaves an empty image tag if left blank.
+Fixed - Typo error for menu height option title.
+Fixed - Header height bigger than it should be at times.
+Fixed - Menu height overflowing the top section.
+
+
+1.2.1
+===================
+Fixed - Blog page title not changing.
+
+1.2.0
+===================
+Removed - `eth-print-optons.php` file.
+Added   - `eth-js.php` file which stores theme option JS.
+Fixed   - Minor heading styling issues.
+Fixed   - Major code refactoring and cleanup based on current techniques.
+Added   - New theme option section, Header.
+Added   - New theme option section, Subscribe (requires Mailchimp).
+Added   - Theme option logo image height.
+Added   - Theme option menu height.
+Added   - Theme option background image color in each section.
+Changed - Theme option logo image upload setting moved to Header section.
+
+
+1.1.4
+===================
+Added - You can now select a media type (image or embed) for the home section.
+Fixed - CTA section ID setting now works.
+Fixed - Image link setting displaying error on front end when left blank in the overview section.
+Fixed - Styling issues with the overview items and pricing tables.
+
+1.1.3
+===================
+Added   - New option under ‘Home’ to change image position of Home section.
+Added   - Open link in a new tab option for sample product (Overview Section).
+Added   - Styling if there’s only 1 price table.
+Changed - ‘eth-colors.php’ file changed to ‘eth-css.php’.
+Fixed   - Typo for ‘Disable animations on when viewed on mobile’. Missing ‘e’.
+
+1.1.2
+===================
+Fixed - Download sample button now aligns to centre regardless of text length.
+Fixed - Elements not appearing on some animations.
+
+1.1.1
+===================
+Updated - FontAwesome 4.3.
+Added - You can now remove the stars ratings in the Testimonial section by leaving the option empty.
+empty.
+Added - Option to open social links in new tab or same window in the Footer section.
+Fixed - Directory to translation files were not correct.
+
+1.1.0
+===================
+All elements with links will not display anything when urls are left blank in Theme Options.
+Added - You can now add custom CSS/JS in the General settings section.
+Added - You can now disable/enable animations when view on mobile (as animation does not appear as pretty) in the General settings section.
+Fixed - Extra scrollbar appears while scrolling up and down for some animations.
+Fixed - Label of price tables is now correct.
+Fixed - Animations of price tables not working correctly.
+Fixed - Disable/enable text displaying on Home Section.
+
+1.0.9
+===================
+Fixed overflowing width of container on mobile browser (Safari).
+Fixed animation display issue for purchase section.
+Fixed FontAwesome loading older version despite having a newer version installed.
+Fixed blog comments not being able to post properly.
+Updated FontAwesome to the latest version - 4.2.0.
+Made options child theme ready.
+
+1.0.8
+================
+FIX: Links not working in SAFARI and IOS.
+
+1.0.7
+================
+Menu not displaying on large screens when resized after being closed on mobile screens.
+Updated animate.css to the latest version.
+FlexSlider used in the Review Section has been replaced with Owl Carousel 2.
+Added a Full Width Page template for pages.
+Theme now translation ready. Added /languages containing .po file.
+Fixed: Menu bug which duplicates (unclickable and unselectable) while scrolling up and down only on Chrome.
+
+1.0.6
+================
+Fixed Overview Section where the content list sometimes breaks after 4 items.
+
+1.0.5
+================
+Cta buttons can now detect if it's linking to an outside page or within page.
+Landing page now supports shortcodes.
+FontAwesome fonts updated to 4.1.0.
+*Added new option for 'Overview Section' - Image Link.
+*Added Google Analytics option under ‘Generals’ section.
+
+1.0.4
+================
+Menu item active class not working properly when clicked.
+FlexSlider causing a weird menu flicker on Chrome.
+
+1.0.3
+================
+Fixed navigation flicker when clicked.
+Fixed body tag class for landing page template.
+
+1.0.2
+================
+Fixed CSS of responsive menu where the navigation does not slide below.
+
+1.0.1
+================
+Fixed landing page 'Footer' section 'Subtitle' option (section-footer.php).

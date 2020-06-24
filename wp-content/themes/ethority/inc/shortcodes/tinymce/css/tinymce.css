@@ -1,0 +1,14 @@
+[aria-label="Text Color"] button,
+[aria-label="Empty Space"] button,
+[aria-label="Divider"] button,
+[aria-label="Clearfix"] button,
+[aria-label="Columns"] button,
+[aria-label="Accordion"] button,
+[aria-label="Accordion Item"] button,
+[aria-label="Toggle"] button,
+[aria-label="Tabs Group"] button,
+[aria-label="Tabs Item"] button {
+  background: #d95843;
+  color: #fff !important;
+  padding: 2px 10px !important;
+}
